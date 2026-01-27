@@ -1,0 +1,90 @@
+# Jim AI Desktop App Configuration
+# =================================
+
+# Audio Settings
+audio:
+  sample_rate: 16000
+  channels: 1
+  chunk_duration_ms: 30
+  silence_threshold_ms: 1500
+  input_device: null
+
+# VAD Settings (Silero)
+vad:
+  threshold: 0.5
+  min_speech_duration_ms: 250
+  min_silence_duration_ms: 100
+
+# Wake Word (OpenWakeWord - free, no API key)
+wake_word:
+  model: "hey_jarvis"
+  threshold: 0.5
+  keyword_fallback: "jim"
+
+# Transcription (faster-whisper - local)
+transcriber:
+  model: "small"
+  device: "auto"
+  compute_type: "int8"
+  language: "en"
+  beam_size: 5
+
+# Triage (Local LLM via Ollama)
+triage:
+  model: "llama3:8b"
+  fallback_model: "mistral:7b"
+  temperature: 0.1
+  timeout_seconds: 5
+  force_respond_keywords:
+    - "jim"
+    - "hey jim"
+    - "okay jim"
+
+# Brain (Claude Haiku 4.5)
+brain:
+  model: "claude-haiku-4-5-20251001"
+  max_tokens: 150
+  temperature: 0.7
+  api_key: "${ANTHROPIC_API_KEY}"
+
+# Speaker (ElevenLabs + pyttsx3 fallback)
+speaker:
+  primary: "elevenlabs"
+  elevenlabs:
+    voice_id: "G17SuINrv2H9FC6nvetn"
+    model: "eleven_turbo_v2_5"
+    api_key: "${ELEVENLABS_API_KEY}"
+  fallback: "pyttsx3"
+  pyttsx3:
+    rate: 175
+    volume: 0.9
+
+# Memory Settings
+memory:
+  max_history: 10
+  max_queue: 20
+  persist: false
+  persist_path: "context/session.json"
+  # Auto-pruning long-term memory
+  prune_interval_hours: 6
+
+# Screen Watcher (ambient visual assistance)
+screen_watcher:
+  enabled: true
+  check_interval: 2.0
+  speak_cooldown: 30.0
+  hash_threshold: 12
+  high_stakes_keywords:
+    - "mary"
+    - "client"
+    - "urgent"
+    - "deadline"
+    - "production"
+    - "deploy"
+
+# Logging
+logging:
+  level: "INFO"
+  file: "logs/jim.log"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  console: true

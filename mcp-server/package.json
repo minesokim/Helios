@@ -1,0 +1,13 @@
+{
+  "name": "jorkel-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Jorkel AI - provides tools to interact with Jorkel APIs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}

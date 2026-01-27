@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__supabase__list_tables",
+      "mcp__supabase__get_project_url",
+      "Bash(ls:*)",
+      "Bash(npm run build:*)",
+      "mcp__supabase__generate_typescript_types",
+      "Skill(oh-my-claude-sisyphus:ultrawork)",
+      "Bash(npm install:*)"
+    ]
+  }
+}
