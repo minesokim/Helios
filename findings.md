@@ -1,4 +1,4 @@
-# Jim AI - Research Findings
+# Project Helios - Research Findings
 
 ## Tech Decisions
 

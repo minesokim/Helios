@@ -246,7 +246,7 @@ export function MiniOrb({ onClick, className = '' }: MiniOrbProps) {
     <button
       className={`mini-orb ${className}`}
       onClick={onClick}
-      aria-label="Talk to Jim AI"
+      aria-label="Talk to Helios"
     >
       <svg
         width="24"

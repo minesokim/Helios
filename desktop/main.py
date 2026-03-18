@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Jim AI Desktop - Ambient Intelligence Assistant
+Project Helios Desktop - Ambient Intelligence Assistant
 
 A standalone desktop app with ambient listening, wake word detection,
 local transcription, and intelligent responses via Claude.
@@ -80,7 +80,7 @@ def load_config(config_path: str = "config/config.yaml") -> dict:
 
 
 class JimDesktop:
-    """Main orchestrator for Jim AI Desktop."""
+    """Main orchestrator for Project Helios Desktop."""
 
     def __init__(self, config: dict):
         self.config = config
@@ -92,7 +92,7 @@ class JimDesktop:
 
     def _init_components(self):
         """Initialize all components from config."""
-        self.logger.info("Initializing Jim AI Desktop...")
+        self.logger.info("Initializing Project Helios Desktop...")
 
         # Audio listener
         audio_cfg = self.config.get("audio", {})
@@ -377,13 +377,13 @@ class JimDesktop:
         self._running = True
 
         self.logger.info("=" * 50)
-        self.logger.info("Jim AI Desktop starting...")
+        self.logger.info("Project Helios Desktop starting...")
         self.logger.info("Say 'Hey Jarvis' or mention 'Jim' to get my attention")
         self.logger.info("Press Ctrl+C to stop")
         self.logger.info("=" * 50)
 
         print("\n" + "=" * 50)
-        print("Jim AI Desktop")
+        print("Project Helios Desktop")
         print("=" * 50)
         print("Say 'Hey Jarvis' or mention 'Jim' to activate")
         print("Press Ctrl+C to stop")

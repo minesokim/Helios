@@ -1,5 +1,5 @@
 #!/bin/bash
-# Jim AI Desktop - Double-click to run
+# Project Helios Desktop - Double-click to run
 
 cd "$(dirname "$0")"
 

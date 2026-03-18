@@ -6,9 +6,9 @@ export default function Home() {
     <div className="flex min-h-screen flex-col items-center justify-center bg-background">
       <div className="mx-auto max-w-md text-center">
         <div className="mx-auto mb-8 flex h-20 w-20 items-center justify-center rounded-2xl bg-primary text-primary-foreground text-4xl font-bold">
-          J
+          H
         </div>
-        <h1 className="mb-4 text-4xl font-bold tracking-tight">Jim AI</h1>
+        <h1 className="mb-4 text-4xl font-bold tracking-tight">Project Helios</h1>
         <p className="mb-8 text-lg text-muted-foreground">
           Your personal AI financial assistant. Track finances, search documents,
           manage clients, and get daily briefings.

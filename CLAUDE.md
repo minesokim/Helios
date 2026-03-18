@@ -1,4 +1,4 @@
-# JIM AI - Claude Code Context
+# Project Helios - Claude Code Context
 
 ## Project Overview
 Personal AI financial assistant for David (Noctworks founder). Multi-tenant architecture for future Jane AI deployment.

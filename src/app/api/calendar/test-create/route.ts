@@ -30,10 +30,10 @@ export async function GET() {
     const end = new Date(start.getTime() + 30 * 60 * 1000)
 
     const result = await createEventForAccount(account.id, user.id, {
-      title: 'Test Event from Jim AI',
+      title: 'Test Event from Project Helios',
       start,
       end,
-      description: 'This is a test event created by Jim AI',
+      description: 'This is a test event created by Project Helios',
     })
 
     if (!result || 'error' in result) {

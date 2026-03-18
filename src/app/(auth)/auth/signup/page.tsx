@@ -76,11 +76,11 @@ export default function SignupPage() {
       <Card className="w-full max-w-md">
         <CardHeader className="space-y-1 text-center">
           <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary text-primary-foreground text-xl font-bold">
-            J
+            H
           </div>
           <CardTitle className="text-2xl font-bold">Create an account</CardTitle>
           <CardDescription>
-            Set up your Jim AI personal assistant
+            Set up your Project Helios personal assistant
           </CardDescription>
         </CardHeader>
         <CardContent>

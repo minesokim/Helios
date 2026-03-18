@@ -95,7 +95,7 @@ export const useAIStore = create<AIStore>()(
       setHasHydrated: (state) => set({ _hasHydrated: state }),
     }),
     {
-      name: 'jim-ai-store',
+      name: 'project-helios-store',
       partialize: (state) => ({
         conversationId: state.conversationId,
         messages: state.messages,

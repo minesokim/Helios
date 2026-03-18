@@ -1,4 +1,4 @@
-"""Core modules for Jim AI ambient assistant."""
+"""Core modules for Project Helios ambient assistant."""
 
 from .listener import AudioListener
 from .transcriber import Transcriber

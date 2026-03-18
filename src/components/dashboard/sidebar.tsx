@@ -38,9 +38,9 @@ export function Sidebar() {
         <div className="flex h-16 items-center px-5">
           <Link href="/dashboard" className="flex items-center gap-3">
             <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-500 to-violet-500 text-white font-semibold text-lg shadow-lg shadow-indigo-500/20">
-              J
+              H
             </div>
-            <span className="text-xl font-semibold tracking-tight bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent">Jim AI</span>
+            <span className="text-xl font-semibold tracking-tight bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent">Helios</span>
           </Link>
         </div>
 
@@ -67,7 +67,7 @@ export function Sidebar() {
         {/* Footer */}
         <div className="p-4">
           <div className="rounded-2xl px-4 py-3 bg-gradient-to-br from-indigo-50/80 to-violet-50/50 border border-white/60">
-            <p className="text-sm font-medium text-slate-700">Jim AI</p>
+            <p className="text-sm font-medium text-slate-700">Project Helios</p>
             <p className="text-xs text-slate-500 mt-0.5">Personal Finance Assistant</p>
           </div>
         </div>

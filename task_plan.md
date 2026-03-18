@@ -1,4 +1,4 @@
-# Jim AI - Task Plan
+# Project Helios - Task Plan
 
 ## Current Phase: 3 - Document Intelligence (STARTING)
 

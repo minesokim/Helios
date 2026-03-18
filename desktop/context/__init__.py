@@ -1,4 +1,4 @@
-"""Context and memory modules for Jim AI."""
+"""Context and memory modules for Project Helios."""
 
 from .memory import ConversationMemory, ContextManager
 

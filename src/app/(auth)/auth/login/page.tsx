@@ -42,11 +42,11 @@ export default function LoginPage() {
       <Card className="w-full max-w-md">
         <CardHeader className="space-y-1 text-center">
           <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary text-primary-foreground text-xl font-bold">
-            J
+            H
           </div>
           <CardTitle className="text-2xl font-bold">Welcome back, Sir</CardTitle>
           <CardDescription>
-            Enter your credentials to access Jim AI
+            Enter your credentials to access Project Helios
           </CardDescription>
         </CardHeader>
         <CardContent>

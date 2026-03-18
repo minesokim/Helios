@@ -1,4 +1,4 @@
-# Jim AI - Progress Log
+# Project Helios - Progress Log
 
 ## Session 4 - 2026-01-17 (CURRENT)
 

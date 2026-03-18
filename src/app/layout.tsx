@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jim AI - Personal Financial Assistant",
+  title: "Project Helios - Personal Financial Assistant",
   description: "AI-powered financial management for freelancers and creators",
 };
 

@@ -1,4 +1,4 @@
--- JIM AI - CONVERSATION & MEMORY SYSTEM
+-- PROJECT HELIOS - CONVERSATION & MEMORY SYSTEM
 -- Run this in Supabase SQL Editor: https://supabase.com/dashboard/project/niikfrlcdlsfsbozxsjv/sql/new
 
 -- ============================================
